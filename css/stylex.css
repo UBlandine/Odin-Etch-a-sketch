@@ -1,0 +1,36 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 500px;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  margin-top: 20px;
+}
+.board { 
+  width: 500px;
+  height: 500px;
+  display: grid;
+  border: 1px solid black;
+   
+
+}
